@@ -1,0 +1,29 @@
+# Setting up truffle Framework #
+
+
+1. Installing the Truffle Framework
+
+	npm i -g truffle
+
+2. Test the truffle installation
+
+	truffle  --> Result should show a list of commands
+
+3. Setting up the truffle framework in the project
+	
+	truffle init()
+
+4. Installing packages for testing (Jason package)
+
+	npm init -f 
+
+5. Setting up the packages for test (chai, chai-as-promised packages for test)
+
+	npm i --save-dev chai chai-as-promised
+
+
+6. Compiling the truffle contract
+	
+	truffle compile
+
+
